@@ -15,6 +15,7 @@
 		ECE77DD42AF6FE27008FB029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE77DD22AF6FE27008FB029 /* LaunchScreen.storyboard */; };
 		ECE77DE22AF6FFA9008FB029 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE77DE12AF6FFA9008FB029 /* KeyboardViewController.swift */; };
 		ECE77DE62AF6FFA9008FB029 /* Hodor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ECE77DDF2AF6FFA9008FB029 /* Hodor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ECE77DEE2AF7030F008FB029 /* hodor.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE77DED2AF7030F008FB029 /* hodor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		ECE77DDF2AF6FFA9008FB029 /* Hodor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Hodor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE77DE12AF6FFA9008FB029 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		ECE77DE32AF6FFA9008FB029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE77DED2AF7030F008FB029 /* hodor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hodor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		ECE77DE02AF6FFA9008FB029 /* Hodor */ = {
 			isa = PBXGroup;
 			children = (
+				ECE77DED2AF7030F008FB029 /* hodor.png */,
 				ECE77DE12AF6FFA9008FB029 /* KeyboardViewController.swift */,
 				ECE77DE32AF6FFA9008FB029 /* Info.plist */,
 			);
@@ -205,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE77DEE2AF7030F008FB029 /* hodor.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

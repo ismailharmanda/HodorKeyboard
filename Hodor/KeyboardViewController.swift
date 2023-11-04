@@ -17,8 +17,19 @@ class KeyboardViewController: UIInputViewController {
         // Add custom view sizing constraints here
     }
     
+    @objc func onPressHodor(){
+        let textProxy = textDocumentProxy as UITextDocumentProxy
+        textProxy.insertText("HODOR!")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let hodorButton = UIButton(type: .system)
+        hodorButton.frame = CGRect(x: 150, y: 50, width: 140, height: 120)
+        hodorButton.setBackgroundImage(UIImage(named: "hodor.png"), for: UIControl.State.normal)
+        hodorButton.addTarget(self, action: #selector(onPressHodor), for: .touchUpInside)
+        view.addSubview(hodorButton)
         
         // Perform custom UI setup here
         self.nextKeyboardButton = UIButton(type: .system)
